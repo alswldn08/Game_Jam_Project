@@ -64,10 +64,6 @@ public class TitleUIManager : MonoBehaviour
         helppage.gameObject.SetActive(false);
     }
 
-    void OnClickHelp()
-    {
-        helppage.gameObject.SetActive(true);
-    }
     public void GameExit()
     {
         Application.Quit();
